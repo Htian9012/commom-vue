@@ -63,7 +63,7 @@ module.exports = {
      * then assetsPublicPath should be set to "/bar/".
      * In most cases please use '/' !!!
      */
-    assetsPublicPath: '/vueAdmin-template/', // If you are deployed on the root path, please use '/'
+    assetsPublicPath: '/dist/', // If you are deployed on the root path, please use '/' 此处在打包时，设置为项目访问相对路径根目录名
 
     /**
      * Source Maps
